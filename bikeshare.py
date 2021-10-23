@@ -197,10 +197,10 @@ def display_data(df):
 
     while True:
         response = ['yes', 'no']
-        choice = input(
+        view_individual_trip_data = input(
             "\nWould you like to view individual trip data (5 entries)? Type 'yes' or 'no'\n").lower()
-        if choice in response:
-            if choice == 'yes':
+        if view_individual_trip_data in response:
+            if view_individual_trip_data == 'yes':
                 start = 0
                 end = 5
                 data = df.iloc[start:end, :9]
@@ -208,12 +208,12 @@ def display_data(df):
             break
         else:
             print("Please enter a valid response")
-    if choice == 'yes':
+    if view_individual_trip_data == 'yes':
          while True:
-            choice_2 = input(
+            view_more_trip_data = input(
                 "Would you like to view more trip data? Type 'yes' or 'no'\n").lower()
-            if choice_2 in response:
-                if choice_2 == 'yes':
+            if view_more_trip_data in response:
+                if view_more_trip_data == 'yes':
                     start += 5
                     end += 5
                     data = df.iloc[start:end, :9]
