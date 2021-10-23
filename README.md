@@ -26,6 +26,6 @@ To run the program , I use Anaconda's command prompt on a Windows 10 machine. Yo
 
 # Credits
 * [Udacity](https://udacity.com) - Udacity's Nanodegree program of Python for Data Science with Python and their instructors were extremely helpful.
-* [Aritra Chattaraj](https://github.com/aritra96)  - Aritra's repository helped to better understand the structure for this project.
+* [Aritra Chattaraj](https://github.com/aritra96)  - Aritra's repository inspired me and helped to better understand the structure for this project.
 * [pandas docs](http://pandas.pydata.org/pandas-docs/stable/) - pandas documentation was helpful in understanding the pandas methods used in this project.
  
