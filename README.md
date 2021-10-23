@@ -1,5 +1,4 @@
-### Created
-October, 2021.
+### Created: October, 2021.
 
 ### Exploring US Bikeshare Data Project  
 Using python to analyze bikeshare data from three US cities.
@@ -19,7 +18,14 @@ Pandas library and statistics methods are used to perform a rudimentary analysis
 
 * chicago.csv, new_york_city.csv and washington.csv - These dataset files contain all bikeshare information for the citities of Chicago, New York City and Washington respectively. All these files were provided by Udacity.
  
-* Note: washington.csv does not include the 'Gender' or 'Birth Year' data.
+* Note: washington.csv does not include the 'Gender' and 'Birth Year' data.
+
+### Running the program:
+To run the program , I use Anaconda's command prompt on a Windows 10 machine. You enter the command 'python bikeshare.py' on the terminal.
 
 
+# Credits
+* [Udacity](https://udacity.com) - Udacity's Nanodegree program of Python for Data Science with Python and their instructors were extremely helpful.
+* [Aritra Chattaraj](https://github.com/aritra96)  - Aritra's repository helped to better understand the structure for this project.
+* [pandas docs](http://pandas.pydata.org/pandas-docs/stable/) - pandas documentation was helpful in understanding the pandas methods used in this project.
  
