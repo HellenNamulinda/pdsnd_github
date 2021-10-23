@@ -210,10 +210,10 @@ def display_data(df):
             print("Please enter a valid response")
     if view_individual_trip_data == 'yes':
          while True:
-            choice_2 = input(
+            view_more_trip_data = input(
                 "Would you like to view more trip data? Type 'yes' or 'no'\n").lower()
-            if choice_2 in response:
-                if choice_2 == 'yes':
+            if view_more_trip_data in response:
+                if view_more_trip_data == 'yes':
                     start += 5
                     end += 5
                     data = df.iloc[start:end, :9]
