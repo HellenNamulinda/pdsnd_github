@@ -2,9 +2,9 @@
 October, 2021.
 
 ### Exploring US Bikeshare Data Project  
+Using python to analyze bikeshare data from three US cities.
 
-
-# Project Description:
+# Project Overview:
 
 This project focusses on the use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. 
 Pandas library and statistics methods are used to perform a rudimentary analysis on this data - to display information such as most popular days or most common stations.
@@ -13,6 +13,7 @@ Pandas library and statistics methods are used to perform a rudimentary analysis
 
 * Language: Python 3.8 or above 
 * Libraries: pandas, numpy
+* N.B: All these were installed using Anaconda.
 
 # Project Data (Files used):
 
@@ -20,5 +21,5 @@ Pandas library and statistics methods are used to perform a rudimentary analysis
  
 * Note: washington.csv does not include the 'Gender' or 'Birth Year' data.
 
-# Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
+ 
